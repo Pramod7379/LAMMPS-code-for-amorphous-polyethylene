@@ -28,7 +28,7 @@ thermo 100
 
 # Uniaxial compression at strain rate -1e09 s-1 #
  
-fix 1   all npt temp 300.0 300.0 500.0 y 0 0 100 z 0 0 100 
+fix 1   all npt temp 100.0 100.0 500.0 y 0 0 100 z 0 0 100 
 
 variable tmp equal "lx"
 variable L0 equal ${tmp}
